@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        th,
+        td {
+            width: 300px;
+            border: 5px solid black;
+            text-align: center
+        }
+
+        .img {
+            width: 200px;
+            height: 100px;
+        }
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cars</h1>
+
+    <div class="box">
+
+        <table>
+            <tr>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Img</th>
+            </tr>
+
+        </table>
+
+
+        {{#each cars}}
+
+        <table>
+            <tr>
+                <th>{{this.model}}</th>
+                <th>{{this.year}}</th>
+                <th><img src="{{this.img_src}}" class="img"></th>
+            </tr>
+
+        </table>
+
+        {{/each}}
+
+    </div>
+</body>
+
+</html>

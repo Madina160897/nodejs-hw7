@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "model": "Mercedes",
+        "year": "2020",
+        "img_src": "https://cdn.jdpower.com/JDPA_2020%20Mercedes-AMG%20C63%20S%20Selenite%20Gray%20Front%20View.jpg"
+    },
+    {
+        "id": 2,
+        "model": "BMW",
+        "year": "2021",
+        "img_src": "https://hips.hearstapps.com/hmg-prod/images/2021-bmw-8-series-gran-coupe-mmp-1-1603484580.jpg"
+    },
+    {
+        "id": 3,
+        "model": "KIA",
+        "year": "2022",
+        "img_src": "http://assets-clean.local-car-finder.com/images/14497/14497_st1280_089.png"
+    },
+    {
+        "id": 4,
+        "model": "Toyota",
+        "year": "2020",
+        "img_src": "https://img-optimize.toyota-europe.com/resize/tridion/768x432/ruru/1_1600x900_tcm-3020-2021060.jpg"
+    }
+]
